@@ -1,0 +1,81 @@
+.nav-items {
+  position: static;
+  height: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between; /* Change this to space-between */
+  align-items: center; 
+  padding: 0 200px; 
+  background-color: #F5E5E5;
+}
+
+.nav-class {
+  flex: 2; /* Take up remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center the items */
+}
+
+.nav-class li {
+  position: relative;
+  top: 70px;
+  margin: 20px;
+  list-style-type: none;
+  display: inline;
+  
+  
+ 
+}
+.lotus-img{
+  position: absolute;
+  left: 600px;
+  top: 50px;
+ 
+}
+.content{
+  position: absolute;
+  top: 45px;
+  right: 450px;
+  
+
+}
+.content h1{
+  font-size: 70px;
+
+}
+
+
+/* .nav-items,.left-side-bars{
+  display:flex; 
+  float: right;
+} */
+.right-side-bars{
+  position: absolute;
+  top: 50px;
+  right: 0px;
+ 
+}
+.left-side-bars{
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  padding: 20px;
+  justify-content: space-between;
+  width: 150px;
+}
+.Line-img{
+  position: absolute;
+  bottom: 435px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.top-item{
+  position: absolute;
+  background-color: #834256;
+  top: 0;
+  width: 100vw;
+  left: 0;
+  height: 30px;
+}

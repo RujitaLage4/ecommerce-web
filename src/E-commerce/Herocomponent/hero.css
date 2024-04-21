@@ -1,0 +1,60 @@
+.hero-img{
+    background-color: #F5E5E5;
+    height: 3000px;
+    
+
+
+}
+.logo-img img {
+    position: absolute;
+    width: 1300px;
+    height: 666px;
+    left:25px;
+    right: 0px;
+    
+}
+.sale-img{
+    width:2px;
+    height:50px;
+}
+.box img {
+    position: absolute;
+    top: 650px;
+    right:400px ;
+    width:218.22px ;
+    height:139.3px;
+}
+
+.pinkbg img{
+    position: absolute;
+    top: 230px;
+    width:500px ;
+    height:209px;
+    left: 50px;
+    transform: rotate(22.2);
+}
+.five-img img{
+    width: 52px;
+    height: 72px;
+    position: absolute;
+    right:550px ;
+    top: 675px;
+
+}
+.sale-img img{
+    position: absolute;
+    top: 300px;
+    width:209px ;
+    height:45px;
+    left: 220px;
+    
+    /* transform: rotate(20); */
+    
+
+}
+.cartss{
+    position: absolute;
+    z-index: 1;
+    top: 900px;
+    left: 20px;
+}

@@ -1,0 +1,30 @@
+.cart {
+  /* width: 100%; */
+  display: flex;
+ 
+  justify-content: space-between;
+   z-index: 1;
+}
+.cart-item{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #854156;
+  border-radius: 5%;
+  margin:5px;
+  width: 320px;
+  height: 207.98px;
+  align-items: center;
+
+}
+.img1-item{
+  width: 127.88px;
+  height: 107.77px;
+  margin-top: 20px;
+}
+
+.img2-item{
+  margin-top: 20px;
+  width:164.76px;
+}
+
+
